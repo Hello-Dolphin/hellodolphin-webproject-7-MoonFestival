@@ -3,7 +3,7 @@ import './App.css';
 import Menu from './components/Menu';
 import Home from './components/Home';
 import Legend from './components/Legend';
-import mooncake from './components/mooncake';
+import Mooncake from './components/Mooncake';
 function App() {
 
   return (
@@ -11,7 +11,7 @@ function App() {
         <Menu/>
         <Home/>
         <Legend/>
-        <mooncake/>
+        <Mooncake/>
     </div>
   );
 }
