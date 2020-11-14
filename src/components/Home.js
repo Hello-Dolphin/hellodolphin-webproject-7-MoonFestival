@@ -2,23 +2,35 @@ import React , {Component} from 'react';
 import '../style/style.css';
 import Lamp1L from '../images/Lamp1L.png';
 import Lamp1R from '../images/Lamp1R.png';
+import r3 from '../images/r3.png';
+import r4 from '../images/r4.png';
 class Home extends Component{
     render(){
         return(
-            <div className="home">
-                <div className="china">
-                    <div className="lamp-left">
-                        <img src={Lamp1L}/>
+            <div className="bigger-home">
+                <div className="home">
+                    <div className="china">
+                        <div className="lamp-left">
+                            <img src={Lamp1L} id="lamp-left"/>
+                        </div>
+                        <div className="text">
+                            <h3 className="chin-lang">中秋节 <span className="thai-lang">( เ ท ศ ก า ล ไ ห ว้ พ ร ะ จั น ท ร์ )</span> </h3>
+                        </div>
+                        <div className="lamp-right">
+                            <img src={Lamp1R} id="lamp-right"/>
+                        </div>
                     </div>
-                    <div className="text">
-                        <h3 className="chin-lang">中秋节</h3>
-                        <h3 className="thai-lang">( เ ท ศ ก า ล ไ ห ว้ พ ร ะ จั น ท ร์ )</h3>
+                </div>
+                <div className="rabbit">
+                    <div>
+                        <img src={r4} id="rabbit-left"/>
                     </div>
-                    <div className="lamp-right">
-                        <img src={Lamp1R}/>
+                    <div>
+                        <img src={r3} id="rabbit-right"/>
                     </div>
                 </div>
             </div>
+
         )
     }
 }

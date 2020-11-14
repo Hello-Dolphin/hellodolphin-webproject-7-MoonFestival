@@ -18,7 +18,7 @@ h1{
     justify-content: space-evenly;
 
 }
-.home{
+.bigger-home{
     background-color:#021225;
 }
 h3{
@@ -26,11 +26,38 @@ h3{
 }
 .chin-lang{
     font-family: 'Noto Serif SC', serif;
-    font-size: 144px;
+    font-size: 164px;
     color: #FFFFFF;
 }
 .thai-lang{
+    margin-bottom: 150px;
     font-family: 'Prompt', sans-serif;
     font-size:20px;
     color:#FFFFFF;
+}
+.lamp-right{
+    margin-top:40px;
+    margin-left:20px;
+}
+.lamp-left{
+    margin-top:40px;
+    margin-right:20px;
+}
+h3 span {
+    display:block;
+}
+.text{
+    margin-bottom: 80px;
+}
+#rabbit-left{
+    width:191px;
+    height:217px;
+}
+#rabbit-right{
+    width:255px;
+    height:216px;
+}
+.rabbit{
+    display:flex;
+    justify-content: space-evenly;
 }
