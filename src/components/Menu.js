@@ -7,6 +7,7 @@ class Menu extends Component{
         return(
             <div className="menu">
                 <div className="row" >
+                    <div className="col"></div>
                     <div className="col">
                         <h1>Home</h1>
                     </div>
