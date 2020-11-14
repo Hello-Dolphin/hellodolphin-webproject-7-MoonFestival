@@ -13,3 +13,24 @@ h1{
     width:100px;
     height:100px;
 }
+.china{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.home{
+    background-color:#021225;
+}
+h3{
+    text-align:center;
+}
+.chin-lang{
+    font-family: 'Noto Serif SC', serif;
+    font-size: 144px;
+    color: #FFFFFF;
+}
+.thai-lang{
+    font-family: 'Prompt', sans-serif;
+    font-size:20px;
+    color:#FFFFFF;
+}
