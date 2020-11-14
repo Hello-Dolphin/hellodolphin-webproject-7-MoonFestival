@@ -1,7 +1,7 @@
 import React , {Component} from 'react';
 import MenuLogo from '../images/logow1.png';
-import '../style/style.css'
-import 'bootstrap/dist/css/bootstrap-grid.css'
+import '../style/style.css';
+import 'bootstrap/dist/css/bootstrap-grid.css';
 class Menu extends Component{
     render(){
         return(

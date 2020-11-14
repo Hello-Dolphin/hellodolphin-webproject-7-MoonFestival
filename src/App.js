@@ -1,6 +1,5 @@
 import '../node_modules/aos/dist/aos.css';
 import './App.css';
-import TestAos from './components/TestAos';
 import Menu from './components/Menu'
 function App() {
 
