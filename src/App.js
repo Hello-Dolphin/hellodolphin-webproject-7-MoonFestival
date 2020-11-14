@@ -3,15 +3,14 @@ import './App.css';
 import Menu from './components/Menu';
 import Home from './components/Home';
 import Legend from './components/Legend';
-import mooncake from './components/mooncake';
+import MoonDay from './components/MoonDay';
 function App() {
-
   return (
     <div className="App">
         <Menu/>
         <Home/>
         <Legend/>
-        <mooncake/>
+        <MoonDay/>
     </div>
   );
 }
