@@ -29,3 +29,12 @@ p{
     text-align: center;
     font-weight: bold;
 }
+.write{
+    font-family: 'Prompt', sans-serif;
+    font-size: 28px ;
+    color: #fdc264;
+    letter-spacing: 4%;
+    line-height: 132%;
+    text-align: center;
+    font-weight: bold;
+}
