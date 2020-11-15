@@ -15,7 +15,7 @@ body{
 }
 .mis-lang-lang{
     font-family: 'Noto Serif SC', serif;
-    font-size: 72pt;
+    font-size: 30px;
     color: #F3AC41;
     letter-spacing: 5%; 
     line-height: 132%;
@@ -28,6 +28,10 @@ p{
     line-height: 132%;
     text-align: center;
     font-weight: bold;
+}
+#miss{
+    width:364px;
+    height:423px;
 }
 .write{
     font-family: 'Prompt', sans-serif;

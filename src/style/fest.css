@@ -1,0 +1,36 @@
+body{
+    font-family: 'Prompt', sans-serif;
+}
+.festmoon{
+    font-family: 'Prompt', sans-serif;
+    font-size: 46pt; 
+    color:#F3AC41;
+    letter-spacing: 5%;
+    line-height: 132%;
+}
+.festedmoon{
+    font-family: 'Noto Serif SC', serif;
+    font-size: 40pt; 
+    color:#F3AC41;
+    letter-spacing: 5%;
+    line-height: 132%;
+}
+.Rabbit{
+    
+}
+.rabbit{
+    font-family: 'Prompt', sans-serif;
+    font-size: 46pt; 
+    color:#F3AC41;
+    letter-spacing: 5%;
+    line-height: 132%;
+    float: left;
+}
+.rabbitmoon{
+    font-family: 'Noto Serif SC', serif;
+    font-size: 40pt; 
+    color:#F3AC41;
+    letter-spacing: 5%;
+    line-height: 132%;
+    float:right;
+}

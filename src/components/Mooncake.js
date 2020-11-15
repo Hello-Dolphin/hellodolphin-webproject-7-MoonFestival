@@ -14,8 +14,8 @@ class Mooncake extends Component {
                         <img src={Lampcol} id="lamp" />
                         <p>ขนมไหว้พระจันทร์</p>
                         <p className="name">เป็นขนมที่มีต้นตำรับมาจากประเทศจีน เป็นสัญลักษณ์แห่งความเป็นสิริมงคล ความปรารถนาดี และความสามัคคี  ขนมไหว้พระจันทร์ของจีนดั้งเดิม...</p>
-                        <hr></hr>
                         <button className="button2">อ่านเพิ่มเติม</button>
+                        <hr></hr>
                 </div>
             </div>
         );

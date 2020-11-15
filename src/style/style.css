@@ -19,6 +19,8 @@ h1{
 
 }
 .bigger-home{
+    background-image:url("../images/backback.png");
+    background-size:50vw , 50vh;
     background-color:#021225;
     padding-bottom: 5rem;
 }
