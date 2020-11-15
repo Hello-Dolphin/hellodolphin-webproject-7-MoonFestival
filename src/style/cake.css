@@ -1,19 +1,22 @@
 .moon{
-text-align: center;
+    text-align:center;
+display:flex;
+justify-content: center;
 }
 .mooncake{
     float:left;
 }
 .mis-lang{
+    text-align:center;
     font-family: 'Prompt', sans-serif;
-    font-size: 72pt; 
+    font-size: 46pt;
     color:#F3AC41;
     letter-spacing: 5%;
     line-height: 132%;
 }
 .mis-langed{
     font-family: 'Noto Serif SC', serif;
-    font-size: 72pt;
+    font-size: 46pt;
     color: #F3AC41;
     letter-spacing: 5%; 
     line-height: 132%;

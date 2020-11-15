@@ -13,17 +13,8 @@ class Festival extends Component {
                 <h1 className="rabbit-fest">กระต่ายบนดวงจันทร์</h1>
                 <h1 className="rabbitmoon">(月兔)</h1>
                 <img src={Ellipse4} alt="Ellipse4"/>
-            
-
                 </div>
-            
-
             </div>
-            
-            
-
-
-
             );
 
         }

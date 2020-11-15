@@ -2,33 +2,20 @@ import React , {Component} from 'react';
 import MenuLogo from '../images/logow1.png';
 import '../style/style.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 class Menu extends Component{
     render(){
         return(
-            <div className="menu">
-                <div className="row" >
-                    <div className="col">
-                        <h1>Home</h1>
-                    </div>
-                    <div className="col">
-                        <h1>ตำนานฉางเอ๋อ</h1>
-                    </div>
-                    <div className="col">
-                        <h1>วันไหว้พระจันทร์</h1>
-                    </div>
-                    <div className="col">
-                        <img src={MenuLogo} id="menu-logo"/>
-                    </div>
-                    <div className="col">
-                        <h1>ขนมไหว้พระจันทร์</h1>
-                    </div>
-                    <div className="col">
-                        <h1>พิธีไหว้พระจันทร์</h1>
-                    </div>
-                    <div className="col">
-                        <h1>กระต่ายบนจันทร์</h1>
-                    </div>
-                </div>
+            <div>
+                <ul className="nav nav-pills nav-justified">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 3</a></li>
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 3</a></li>
+                </ul>
             </div>
         )
     }

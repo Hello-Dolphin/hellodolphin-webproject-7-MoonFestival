@@ -2,8 +2,24 @@ body{
     font-family: 'Prompt', sans-serif;
 }
 .menu {
+    display: flex;
+    justify-content: space-around;
     background-color: #021225;
     color: #FFFFFF;
+    width:100vw;
+}
+.menu-left{
+    display:flex;
+    justify-content: space-between;
+}
+.menu-center{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+.menu-right{
+    display:flex;
+    justify-content: space-between;
 }
 h1{
     font-size:18px;
@@ -21,6 +37,9 @@ h1{
 .bigger-home{
     background-color:#021225;
     padding-bottom: 5rem;
+    background-image:url("../images/backmain.png");
+    height:100vh;
+    width:100vw;
 }
 h3{
     text-align:center;
@@ -61,4 +80,9 @@ h3 span {
 .rabbit{
     display:flex;
     justify-content:space-evenly;
+}
+.last-page{
+    background-image:url("../images/hellodophin+rabbit.png");
+    width:100vw;
+    height:30vh;
 }

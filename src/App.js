@@ -6,6 +6,7 @@ import Legend from './components/Legend';
 import MoonDay from './components/MoonDay';
 import Mooncake from './components/Mooncake';
 import Festival from './components/Festival';
+import LastPage from './components/LastPage'
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <MoonDay/>
         <Mooncake/>
         <Festival/>
+        <LastPage/>
     </div>
   );
 }
