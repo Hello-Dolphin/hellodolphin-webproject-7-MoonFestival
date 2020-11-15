@@ -12,12 +12,13 @@ class MoonDay extends Component{
                     <p>ที่มีขึ้นในกลางฤดูใบไม้ร่วง เพื่อเฉลิมฉลองการเก็บเกี่ยวจะมีขึ้นใน</p>
                     <p>คืนวันเพ็ญเดือน 8 ตามปฏิทินจันทรคติ...</p>
                     <hr/>
-                    <button id="button">Button</button>
+                    <button className="button2">อ่านเพิ่มเติม</button>
                 </div>
                 <div className="images">
                     <img src={ellipse2} id="ellipse2"/>
                 </div>
             </div>
+            
         )
     }
 }
