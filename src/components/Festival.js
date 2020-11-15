@@ -6,19 +6,17 @@ class Festival extends Component {
     render() {
         return (
             <div className="moonfest">
-                <div className="moon-wai">
+                <div>
                     <h1 className="festmoon">พิธีไหว้พระจันทร์</h1>
                     <h1 className="festedmoon">(中秋拜月的仪式流程)</h1>
                     <img src={Ellipse3} alt="Ellipse3"/>
-                    </div>
-                    
-                    <div className="Rabbit">
-                <h1 className="rabbit">กระต่ายบนดวงจันทร์</h1>
+                <h1 className="rabbit-fest">กระต่ายบนดวงจันทร์</h1>
                 <h1 className="rabbitmoon">(月兔)</h1>
                 <img src={Ellipse4} alt="Ellipse4"/>
-                    </div>
-               </div>
+                </div>
+            </div>
             );
+
         }
     }
     export default Festival;
