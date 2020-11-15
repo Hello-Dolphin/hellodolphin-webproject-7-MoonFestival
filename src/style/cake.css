@@ -1,7 +1,12 @@
 .moon{
-    text-align:center;
-    display:flex;
-    justify-content: center;
+text-align:center;
+display:flex;
+justify-content: center;
+background-image: url(../images/backmooncake.png);
+width: 100%;
+}
+.mooncake{
+    float:left;
 }
 .mis-lang{
     text-align:center;
@@ -27,15 +32,17 @@ p{
     text-align: center;
     font-weight: bold;
 }
-.button2{
-  background-color: white; 
-  color:  #021225;
-  border: 2px solid #008CBA;
-}
-.mis-lang-lang{
-    font-family: 'Noto Serif SC', serif;
-    font-size: 46pt;
-    color: #F3AC41;
-    letter-spacing: 5%;
+.name{
+    font-family: 'Prompt', sans-serif;
+    font-size: 28px ;
+    color: #fdc264;
+    letter-spacing: 4%;
     line-height: 132%;
+    font-weight: bold;
+    float:right;
+}
+
+.w3-btn {
+    width:150px;
+    color: #021225;
 }

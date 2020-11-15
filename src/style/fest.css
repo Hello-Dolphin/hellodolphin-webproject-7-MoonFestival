@@ -8,10 +8,10 @@ body{
     letter-spacing: 5%;
     line-height: 132%;
 }
-.festedmoon {
+.festedmoon{
     font-family: 'Noto Serif SC', serif;
-    font-size: 40pt;
-    color: #F3AC41;
+    font-size: 40pt; 
+    color:#F3AC41;
     letter-spacing: 5%;
     line-height: 132%;
 }
@@ -30,18 +30,4 @@ body{
     letter-spacing: 5%;
     line-height: 132%;
     float:right;
-}
-.moonfest{
-    display:flex;
-    justify-content: center;
-}
-.rabbit-on-the-moon{
-    text-align: center;
-}
-.moon-wai {
-    text-align: center;
-}
-#img{
-    width:330px;
-    height:330px;
 }

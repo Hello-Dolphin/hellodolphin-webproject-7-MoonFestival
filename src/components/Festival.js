@@ -6,7 +6,7 @@ class Festival extends Component {
     render() {
         return (
             <div className="moonfest">
-                <div className="moon-wai">
+                <div>
                     <h1 className="festmoon">พิธีไหว้พระจันทร์</h1>
                     <h1 className="festedmoon">(中秋拜月的仪式流程)</h1>
                     <img src={Ellipse3} alt="Ellipse3"/>

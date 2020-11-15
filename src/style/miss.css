@@ -4,9 +4,11 @@ body{
 }
 .missed{
     text-align: center;
+    background-image: url(../images/mainmiss.png);
+    line-height: 10%;
+    
 }
 .miss-lang{
-    margin-top:5rem;
     font-family: 'Prompt', sans-serif;
     font-size: 72pt; 
     color:#F3AC41;
@@ -14,7 +16,6 @@ body{
     line-height: 132%;
 }
 .mis-lang-lang{
-    margin-top:5rem;
     font-family: 'Noto Serif SC', serif;
     font-size: 30px;
     color: #F3AC41;
@@ -31,7 +32,6 @@ p{
     font-weight: bold;
 }
 #miss{
-    margin-top:5rem;
     width:364px;
     height:423px;
 }
