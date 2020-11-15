@@ -1,15 +1,18 @@
 import React , {Component} from 'react';
 import '../style/moonday.css'
 import ellipse2 from '../images/Ellipse2.png';
+import Lampcol from "../images/Lampcol.png";
 class MoonDay extends Component{
     render(){
         return(
             <div className="moon-day">
                 <div className="text">
                     <h2 className="text-day">วันไหว้พระจันทร์(中秋节)</h2>
+                    <img src={Lampcol} id="lamp" />
                     <p>วันไหว้พระจันทร์</p>
                     <p>เป็นเทศกาลตามวัฒนธรรมจีน</p>
-                    <p>ที่มีขึ้นในกลางฤดูใบไม้ร่วง เพื่อเฉลิมฉลองการเก็บเกี่ยวจะมีขึ้นใน</p>
+                    <p>ที่มีขึ้นในกลางฤดูใบไม้ร่วง</p>
+                    <p>เพื่อเฉลิมฉลองการเก็บเกี่ยวจะมีขึ้นใน</p>
                     <p>คืนวันเพ็ญเดือน 8 ตามปฏิทินจันทรคติ...</p>
                     <hr/>
                     <button className="button2">อ่านเพิ่มเติม</button>

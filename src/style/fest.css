@@ -16,7 +16,6 @@ body{
     line-height: 132%;
 }
 .Rabbit{
-
 }
 .rabbit-fest{
     font-family: 'Prompt', sans-serif;
@@ -33,4 +32,17 @@ body{
     letter-spacing: 5%;
     line-height: 132%;
     float:right;
+}
+.moonfest{
+    margin-top:5rem;
+    margin-bottom:5rem;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+.moonfest-left{
+    margin-right: 4rem;
+}
+.moonfest-right{
+    margin-left:4rem;
 }

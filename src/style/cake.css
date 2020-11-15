@@ -1,10 +1,8 @@
 .moon{
     text-align:center;
-display:flex;
-justify-content: center;
-}
-.mooncake{
-    float:left;
+    display:flex;
+    justify-content: center;
+    padding-top:5rem;
 }
 .mis-lang{
     text-align:center;

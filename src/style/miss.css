@@ -4,7 +4,8 @@ body{
 }
 .missed{
     text-align: center;
-    
+    padding-bottom: 5rem;
+    padding-top:5rem;
 }
 .miss-lang{
     font-family: 'Prompt', sans-serif;
@@ -41,4 +42,7 @@ p{
     line-height: 132%;
     text-align: center;
     font-weight: bold;
+}
+hr{
+    margin-top:2rem;
 }
