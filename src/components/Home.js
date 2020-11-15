@@ -13,7 +13,7 @@ class Home extends Component{
                         <div className="lamp-left">
                             <img src={Lamp1L} id="lamp-left"/>
                         </div>
-                        <div className="text">
+                        <div className="text-of-home">
                             <h3 className="chin-lang">中秋节 <span className="thai-lang">( เ ท ศ ก า ล ไ ห ว้ พ ร ะ จั น ท ร์ )</span> </h3>
                         </div>
                         <div className="lamp-right">

@@ -7,6 +7,10 @@ width: 100%;
 }
 .mooncake{
     float:left;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    padding-top:5rem;
 }
 .mis-lang{
     text-align:center;
@@ -45,4 +49,10 @@ p{
 .w3-btn {
     width:150px;
     color: #021225;
+}
+.button2{
+  background-color: white; 
+  color:  #021225; 
+  background-color: ;
+  border: 2px solid #008CBA;
 }
