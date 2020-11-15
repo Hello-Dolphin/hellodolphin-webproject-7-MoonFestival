@@ -14,6 +14,8 @@ body{
     color:#F3AC41;
     letter-spacing: 5%;
     line-height: 132%;
+}
+.Rabbit{
 
 }
 .rabbit-fest{
@@ -31,18 +33,4 @@ body{
     letter-spacing: 5%;
     line-height: 132%;
     float:right;
-}
-.moonfest{
-    display:flex;
-    justify-content: center;
-}
-.rabbit-on-the-moon{
-    text-align: center;
-}
-.moon-wai {
-    text-align: center;
-}
-#img{
-    width:330px;
-    height:330px;
 }
