@@ -3,7 +3,7 @@ text-align:center;
 display:flex;
 justify-content: center;
 background-image: url(../images/backmooncake.png);
-width: 100%;
+width: 100vw;
 }
 .mooncake{
     float:left;

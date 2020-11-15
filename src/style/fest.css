@@ -45,6 +45,7 @@ body{
     justify-content:center;
     text-align: center;
     background-image: url(../images/backlast.png);
+    width: 100%;
 }
 .moonfest-left{
     margin-right: 4rem;
