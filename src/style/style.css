@@ -1,6 +1,10 @@
 body{
     font-family: 'Prompt', sans-serif;
 }
+.narbar{
+    color: #021225;
+    text-align: center;
+}
 .menu {
     display: flex;
     justify-content: space-around;
