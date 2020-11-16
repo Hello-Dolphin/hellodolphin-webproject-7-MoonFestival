@@ -26,7 +26,7 @@ class Home extends Component{
     }
     render(){
         return(
-            <div className="bigger-home">
+            <div className="bigger-home" id="home">
                 <div className="home">
                     <div className="china">
                         <div className="lamp-left">

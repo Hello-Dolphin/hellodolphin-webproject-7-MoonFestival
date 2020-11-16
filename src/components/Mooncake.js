@@ -28,7 +28,7 @@ class Mooncake extends Component {
     }
     render() {
         return (
-            <div className="moon" id="">
+            <div className="moon" id="mooncake-page">
                 <div className="mooncake">
                     <img src={Ellipse1} id="mooncake" />
                 </div>
