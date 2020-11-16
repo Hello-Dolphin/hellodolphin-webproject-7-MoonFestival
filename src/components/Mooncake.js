@@ -3,7 +3,28 @@ import '../style/cake.css';
 import Ellipse1 from '../images/Ellipse1.png';
 import Lampcol from '../images/Lampcol.png';
 import 'bootstrap/dist/css/bootstrap-grid.css';
+import popup2 from "../images/popup2.png";
+import Modal from "react-awesome-modal";
+import '../style/popup.css';
 class Mooncake extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            visible: false
+        }
+    }
+
+    openModal() {
+        this.setState({
+            visible: true
+        });
+    }
+
+    closeModal() {
+        this.setState({
+            visible: false
+        });
+    }
     render() {
         return (
             <div className="moon">
@@ -19,7 +40,12 @@ class Mooncake extends Component {
                     <p>ขนมไหว้พระจันทร์ของจีนดั้งเดิม...</p>
                     <hr/>
                      <div class="w3-container">
-                <p><button class="w3-button w3-blue  w3-round-large">อ่านเพิ่มเติม</button></p>
+                <p><button class="w3-button w3-blue  w3-round-large" onClick={() => this.openModal()}>อ่านเพิ่มเติม</button></p>
+                         <Modal visible={this.state.visible} width="938" height="746" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                             <div classname="popup2">
+                                 <img src={popup2} id="popup2"/>
+                             </div>
+                         </Modal>
                 </div>
                 </div>
 
