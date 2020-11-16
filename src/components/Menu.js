@@ -9,8 +9,8 @@ class Menu extends Component{
         return(
             <nav className="clearfix">
                 <ul>
-                    <li><a href="">หน้าแรก</a></li>
-                    <li><a href="">ตำนานฉางเอ๋อ</a></li>
+                    <li><a href="#">หน้าแรก</a></li>
+                    <li><a href="#">ตำนานฉางเอ๋อ</a></li>
                     <li><a href="#">วันไหว้พระจันทร์</a></li>
                     <li><a href="#"><img src={MenuLogo}/></a></li>
                     <li><a href="#">ขนมไหว้พระจันทร์</a></li>
