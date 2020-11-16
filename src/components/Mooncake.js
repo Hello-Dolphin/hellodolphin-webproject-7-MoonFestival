@@ -19,7 +19,7 @@ class Mooncake extends Component {
                     <p>ขนมไหว้พระจันทร์ของจีนดั้งเดิม...</p>
                     <hr/>
                      <div class="w3-container">
-                <p><button class="w3-button w3-blue  w3-round-large">อ่านเพิ่มเติม</button></p>
+                <p><button class="w3-button w3-black  w3-round-large">อ่านเพิ่มเติม</button></p>
                 </div>
                 </div>
 

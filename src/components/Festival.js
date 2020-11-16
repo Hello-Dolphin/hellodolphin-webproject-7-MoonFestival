@@ -18,7 +18,7 @@ class Festival extends Component {
                     <p>ลานหน้าบ้าน หรือดาดฟ้า</p>
                     <p>2. จัดเตรียมโต๊ะเพื่อตั้งของไหว้...</p>
                     <div class="w3-container">
-                <p><button class="w3-button w3-blue  w3-round-large">อ่านเพิ่มเติม</button></p>
+                <p><button class="w3-button w3-black  w3-round-large">อ่านเพิ่มเติม</button></p>
                 </div>
                 </div>
                 <div className="moonfest-right">
@@ -31,7 +31,7 @@ class Festival extends Component {
                     <p>เมื่อเทพธิดาฉางเอ๋อซึ่ง</p>
                     <p>อยู่บนดวงจันทร์ได้มองลงมาเห็น...</p>
                     <div class="w3-container">
-                <p><button class="w3-button w3-blue  w3-round-large">อ่านเพิ่มเติม</button></p>
+                <p><button class="w3-button w3-black  w3-round-large">อ่านเพิ่มเติม</button></p>
                 </div>
                 </div>
                 
