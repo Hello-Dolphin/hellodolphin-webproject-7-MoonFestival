@@ -38,7 +38,7 @@ class MoonDay extends Component{
                     <hr/>
                     <div class="w3-container">
                 <p><button class="w3-button w3-black  w3-round-large" onClick={() => this.openModal()}>อ่านเพิ่มเติม</button></p>
-                        <Modal visible={this.state.visible} width="300" height="230" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                        <Modal visible={this.state.visible} width="938" height="746" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                             <div classname="popup1">
                                 <img src={popup1} id="popup1"/>
                             </div>

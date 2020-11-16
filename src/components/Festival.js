@@ -3,7 +3,31 @@ import '../style/fest.css';
 import Ellipse3 from '../images/Ellipse3.png' ;
 import Ellipse4 from '../images/Ellipse4.png' ;
 import backlast from '../images/backlast.png' ;
+import popup3 from "../images/popup3.png";
+import popup4 from "../images/popup4.png";
+import Modal from "react-awesome-modal";
+import '../style/popup.css';
+import popup1 from "../images/popup1.png";
+import RabbitOnMoon from '../components/RabbitOnMoon'
 class Festival extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            visible: false
+        }
+    }
+
+    openModal() {
+        this.setState({
+            visible: true
+        });
+    }
+
+    closeModal() {
+        this.setState({
+            visible: false
+        });
+    }
     render() {
         return (
             <div className="moonfest">
@@ -18,22 +42,15 @@ class Festival extends Component {
                     <p>ลานหน้าบ้าน หรือดาดฟ้า</p>
                     <p>2. จัดเตรียมโต๊ะเพื่อตั้งของไหว้...</p>
                     <div class="w3-container">
-                <p><button class="w3-button w3-black  w3-round-large">อ่านเพิ่มเติม</button></p>
+                <p><button class="w3-button w3-black  w3-round-large" onClick={() => this.openModal()}>อ่านเพิ่มเติม</button></p>
+                        <Modal visible={this.state.visible} width="938" height="746" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                            <div classname="popup3">
+                                <img src={popup3} id="popup3"/>
+                            </div>
+                        </Modal>
                 </div>
                 </div>
-                <div className="moonfest-right">
-                <h1 className="festmoon">กระต่ายบนดวงจันทร์</h1>
-                <h1 className="festedmoon">(月兔)</h1>
-                <img src={Ellipse4} alt="Ellipse4"/>
-                    <p>ตำนานกระต่ายบนดวงจันทร์</p>
-                    <p>เล่าว่า มีอยู่ปีหนึ่งในเมืองปักกิ่ง</p>
-                    <p>เกิดโรคอหิวาระบาดหนัก</p>
-                    <p>เมื่อเทพธิดาฉางเอ๋อซึ่ง</p>
-                    <p>อยู่บนดวงจันทร์ได้มองลงมาเห็น...</p>
-                    <div class="w3-container">
-                <p><button class="w3-button w3-black  w3-round-large">อ่านเพิ่มเติม</button></p>
-                </div>
-                </div>
+                <RabbitOnMoon/>
                 
             </div>
             );

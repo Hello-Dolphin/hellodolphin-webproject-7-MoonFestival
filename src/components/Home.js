@@ -5,6 +5,24 @@ import Lamp1R from '../images/Lamp1R.png';
 import r3 from '../images/r3.png';
 import r4 from '../images/r4.png';
 class Home extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            visible: false
+        }
+    }
+
+    openModal() {
+        this.setState({
+            visible: true
+        });
+    }
+
+    closeModal() {
+        this.setState({
+            visible: false
+        });
+    }
     render(){
         return(
             <div className="bigger-home">
