@@ -10,7 +10,7 @@ class Mooncake extends Component {
                 <div className="mooncake">
                     <img src={Ellipse1} id="mooncake" />
                 </div>
-                <div>
+                <div className="text-moon">
                     <h1 className="mis-lang">ขนมไหว้พระจันทร์<span className="mis-langed">(月饼)</span></h1>
                     <img src={Lampcol} id="lamp" />
                     <p>เป็นขนมที่มีต้นตำรับมาจากประเทศจีน</p>
@@ -19,7 +19,7 @@ class Mooncake extends Component {
                     <p>ขนมไหว้พระจันทร์ของจีนดั้งเดิม...</p>
                     <hr/>
                      <div class="w3-container">
-                <p><button class="w3-button w3-black  w3-round-large">อ่านเพิ่มเติม</button></p>
+                <p><button class="w3-button w3-blue  w3-round-large">อ่านเพิ่มเติม</button></p>
                 </div>
                 </div>
 

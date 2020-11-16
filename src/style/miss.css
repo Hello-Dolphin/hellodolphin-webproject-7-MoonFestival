@@ -7,27 +7,26 @@ body{
     background-image: url(../images/mainmiss.png);
     width: 100vw;
     line-height: 10%;
-    
     padding-bottom: 5rem;
     padding-top:5rem;
 }
 .miss-lang{
     font-family: 'Prompt', sans-serif;
-    font-size: 72pt; 
+    font-size: 54pt; 
     color:#F3AC41;
     letter-spacing: 5%;
     line-height: 132%;
 }
 .mis-lang-lang{
     font-family: 'Noto Serif SC', serif;
-    font-size: 30px;
+    font-size: 54pt;
     color: #F3AC41;
     letter-spacing: 5%; 
     line-height: 132%;
 }
 p{
     font-family: 'Prompt', sans-serif;
-    font-size: 30px ;
+    font-size: 22.5px ;
     color: #fdc264;
     letter-spacing: 4%;
     line-height: 132%;
@@ -40,7 +39,7 @@ p{
 }
 .write{
     font-family: 'Prompt', sans-serif;
-    font-size: 28px ;
+    font-size: 22.5px ;
     color: #fdc264;
     letter-spacing: 4%;
     line-height: 132%;
