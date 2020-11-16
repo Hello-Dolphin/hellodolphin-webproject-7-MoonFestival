@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px) {
+    body{
+        font-family: 'Prompt', sans-serif;
+    }
+    .festmoon{
+        font-family: 'Prompt', sans-serif;
+        font-size: 20pt;
+        color:#F3AC41;
+        letter-spacing: 5%;
+        line-height: 132%;
+
+    }
+    .festedmoon{
+        font-family: 'Noto Serif SC', serif;
+        font-size: 10pt;
+        color:#F3AC41;
+        letter-spacing: 5%;
+        line-height: 132%;
+    }
+    .w3-btn {
+        width:150px;
+        color: #021225;
+        scrollbar-shadow-color: #021225;
+    }
+
+    .rabbit-fest{
+        font-family: 'Prompt', sans-serif;
+        font-size: 20pt;
+        color:#F3AC41;
+        letter-spacing: 5%;
+        line-height: 132%;
+        float: left;
+    }
+    .rabbitmoon{
+        font-family: 'Noto Serif SC', serif;
+        font-size: 20pt;
+        color:#F3AC41;
+        letter-spacing: 5%;
+        line-height: 132%;
+        float:right;
+    }
+    .moonfest{
+        margin-top:5rem;
+        margin-bottom:5rem;
+        display:flex;
+        justify-content:center;
+        text-align: center;
+        background-image: url(../images/background4.png);
+        width: 100%;
+
+    }
+    .moonfest-left{
+        margin-right: 4rem;
+    }
+    .moonfest-right{
+        margin-left:4rem;
+    }
+}

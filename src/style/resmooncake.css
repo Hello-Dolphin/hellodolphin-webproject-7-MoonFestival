@@ -1,0 +1,73 @@
+@media only screen and (max-width: 600px) {
+    .moon{
+        text-align:center;
+        display:flex;
+        justify-content: center;
+        background-image: url(../images/background3.png);
+        width: 100vw;
+    }
+    .mooncake{
+        text-align:center;
+        padding-top:5rem;
+    }
+    .mis-lang{
+        text-align:center;
+        font-family: 'Prompt', sans-serif;
+        font-size: 18pt;
+        color:#F3AC41;
+        letter-spacing: 5%;
+        line-height: 132%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .mis-langed{
+        font-family: 'Noto Serif SC', serif;
+        font-size: 10pt;
+        color: #F3AC41;
+        letter-spacing: 5%;
+        line-height: 132%;
+        text-align: center;
+        font-weight: bold;
+    }
+    p{
+        font-family: 'Prompt', sans-serif;
+        font-size: 10px ;
+        color: #fdc264;
+        letter-spacing: 4%;
+        line-height: 132%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .name{
+        font-family: 'Prompt', sans-serif;
+        font-size: 21px ;
+        color: #fdc264;
+        letter-spacing: 4%;
+        line-height: 132%;
+        font-weight: bold;
+        float:right;
+    }
+
+    .w3-btn {
+        width:150px;
+        color: #021225;
+    }
+    .button2{
+        background-color: white;
+        color:  #021225;
+        border: 2px solid #008CBA;
+    }
+    #mooncake{
+        width:150px;
+        height:150px;
+    }
+    .text-moon{
+        margin-top:5rem;
+    }
+    .last-page{
+
+    }
+    #lastpic{
+        width:100vw;
+    }
+}

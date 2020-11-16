@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) {
+    .moon-day{
+        display:flex;
+        justify-content: center;
+        background-image: url(../images/background3.png);
+        width: 100vw;
+        padding-top:3rem;
+    }
+    #button{
+        background-color:#0E192C;
+    }
+    #ellipse2{
+        width:150px;
+        height:150px;
+    }
+    .text-day{
+        font-family: 'Prompt', sans-serif;
+        font-size: 18px ;
+        color: #fdc264;
+        line-height: 132%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .day{
+        font-family: 'Prompt', sans-serif;
+        font-size: 10px ;
+        color: #fdc264;
+        line-height: 132%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .button2{
+        background-color: white;
+        color:  #021225;
+        border: 2px solid #008CBA;
+    }
+    .w3-btn {
+        width:50px;
+        color: #021225;
+    }
+    .text{
+        text-align: center;
+    }
+}

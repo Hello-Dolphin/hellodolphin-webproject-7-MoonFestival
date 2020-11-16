@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap-grid.css';
 import popup2 from "../images/popup2.png";
 import Modal from "react-awesome-modal";
 import '../style/popup.css';
+import '../style/resmooncake.css';
 class Mooncake extends Component {
     constructor(props) {
         super(props);
@@ -27,7 +28,7 @@ class Mooncake extends Component {
     }
     render() {
         return (
-            <div className="moon">
+            <div className="moon" id="">
                 <div className="mooncake">
                     <img src={Ellipse1} id="mooncake" />
                 </div>
