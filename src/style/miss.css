@@ -13,21 +13,21 @@ body{
 }
 .miss-lang{
     font-family: 'Prompt', sans-serif;
-    font-size: 72pt; 
+    font-size: 45pt;
     color:#F3AC41;
     letter-spacing: 5%;
     line-height: 132%;
 }
 .mis-lang-lang{
     font-family: 'Noto Serif SC', serif;
-    font-size: 30px;
+    font-size: 18px;
     color: #F3AC41;
     letter-spacing: 5%; 
     line-height: 132%;
 }
 p{
     font-family: 'Prompt', sans-serif;
-    font-size: 30px ;
+    font-size: 18px ;
     color: #fdc264;
     letter-spacing: 4%;
     line-height: 132%;
@@ -35,12 +35,12 @@ p{
     font-weight: bold;
 }
 #miss{
-    width:364px;
-    height:423px;
+    width:273px;
+    height:317px;
 }
 .write{
     font-family: 'Prompt', sans-serif;
-    font-size: 28px ;
+    font-size: 18px ;
     color: #fdc264;
     letter-spacing: 4%;
     line-height: 132%;

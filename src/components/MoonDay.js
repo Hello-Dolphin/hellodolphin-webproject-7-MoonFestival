@@ -3,6 +3,8 @@ import '../style/moonday.css'
 import ellipse2 from '../images/Ellipse2.png';
 import Lampcol from "../images/Lampcol.png";
 import Modal from 'react-awesome-modal';
+import '../style/popup.css';
+import popup1 from '../images/popup1.png';
 class MoonDay extends Component{
     constructor(props) {
         super(props);
@@ -37,8 +39,8 @@ class MoonDay extends Component{
                     <div class="w3-container">
                 <p><button class="w3-button w3-black  w3-round-large" onClick={() => this.openModal()}>อ่านเพิ่มเติม</button></p>
                         <Modal visible={this.state.visible} width="300" height="230" effect="fadeInUp" onClickAway={() => this.closeModal()}>
-                            <div>
-
+                            <div classname="popup1">
+                                <img src={popup1} id="popup1"/>
                             </div>
                         </Modal>
                 </div>
