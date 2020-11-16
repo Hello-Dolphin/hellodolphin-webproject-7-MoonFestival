@@ -4,7 +4,8 @@ body{
 }
 .missed{
     text-align: center;
-    background-image: url(../images/mainmiss.png);
+    background-image: url("../images/backgroung2.png");
+    height:100%;
     width: 100vw;
     line-height: 10%;
     padding-bottom: 5rem;
@@ -48,4 +49,7 @@ p{
 }
 hr{
     margin-top:2rem;
+}
+.chang{
+    margin-top:5rem;
 }

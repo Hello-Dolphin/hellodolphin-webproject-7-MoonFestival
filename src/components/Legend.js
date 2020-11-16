@@ -6,7 +6,7 @@ class Legend extends Component {
     render() {
         return (
             <div className="missed">
-                <div>
+                <div className="chang">
                 <h1 className="miss-lang">ฉางเอ๋อ <span className="mis-lang-lang">(嫦娥)</span></h1>
                 <img src={missed} id="miss" />
                 </div>

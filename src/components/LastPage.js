@@ -1,9 +1,11 @@
 import React,{Component} from 'react';
-import '../style/style.css'
+import '../style/last.css'
+import lastpic from '../images/background5.png'
 class LastPage extends Component{
     render(){
         return(
-            <div className="last-page">
+            <div classname="last-page">
+              <img src={lastpic}/>
             </div>
         )
     }

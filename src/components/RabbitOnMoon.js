@@ -11,13 +11,11 @@ class Festival extends Component {
             visible: false
         }
     }
-
     openModal() {
         this.setState({
             visible: true
         });
     }
-
     closeModal() {
         this.setState({
             visible: false
