@@ -5,6 +5,7 @@ import Lampcol from "../images/Lampcol.png";
 import Modal from 'react-awesome-modal';
 import '../style/popup.css';
 import popup1 from '../images/popup1.png';
+import '../style/resmoonday.css';
 class MoonDay extends Component{
     constructor(props) {
         super(props);
@@ -26,7 +27,7 @@ class MoonDay extends Component{
     }
     render(){
         return(
-            <div className="moon-day">
+            <div className="moon-day" id="moonday">
                 <div className="text">
                     <h2 className="text-day">วันไหว้พระจันทร์(中秋节)</h2>
                     <img src={Lampcol} id="lamp" />

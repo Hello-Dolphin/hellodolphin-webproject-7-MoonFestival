@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import '../style/fest.css';
 import Ellipse3 from '../images/Ellipse3.png' ;
-import Ellipse4 from '../images/Ellipse4.png' ;
-import backlast from '../images/backlast.png' ;
+import '../style/resfestival.css';
 import popup3 from "../images/popup3.png";
-import popup4 from "../images/popup4.png";
 import Modal from "react-awesome-modal";
 import '../style/popup.css';
-import popup1 from "../images/popup1.png";
 import RabbitOnMoon from '../components/RabbitOnMoon'
 class Festival extends Component {
     constructor(props) {
@@ -30,7 +27,7 @@ class Festival extends Component {
     }
     render() {
         return (
-            <div className="moonfest">
+            <div className="moonfest" id="festival">
                 
                 <div className="moonfest-left">
                     <h1 className="festmoon">พิธีไหว้พระจันทร์</h1>

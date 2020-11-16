@@ -4,6 +4,7 @@ import Lamp1L from '../images/Lamp1L.png';
 import Lamp1R from '../images/Lamp1R.png';
 import r3 from '../images/r3.png';
 import r4 from '../images/r4.png';
+import '../style/resstyle.css';
 class Home extends Component{
     constructor(props) {
         super(props);
@@ -25,7 +26,7 @@ class Home extends Component{
     }
     render(){
         return(
-            <div className="bigger-home">
+            <div className="bigger-home" id="home">
                 <div className="home">
                     <div className="china">
                         <div className="lamp-left">

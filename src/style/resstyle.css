@@ -1,0 +1,81 @@
+@media only screen and (max-width: 600px) {
+    body{
+        font-family: 'Prompt', sans-serif;
+    }
+    .narbar{
+        color: #021225;
+        text-align: center;
+    }
+    h1{
+        font-size:18px;
+        font-family: 'Prompt', sans-serif;
+    }
+    #menu-logo{
+        width:40px;
+        height:40px;
+    }
+    .china{
+        display:flex;
+        justify-content: space-evenly;
+
+    }
+    .bigger-home{
+        background-color:#021225;
+        padding-bottom: 15rem;
+        background-image:url("../images/backgroung1.png");
+        height:100vh;
+        width:100%;
+    }
+    h3{
+        text-align:center;
+    }
+    .chin-lang{
+        font-family: 'Noto Serif SC', serif;
+        font-size: 82px;
+        color: #FFFFFF;
+    }
+    .thai-lang{
+        margin-bottom: 150px;
+        font-family: 'Prompt', sans-serif;
+        font-size:13px;
+        color:#FFFFFF;
+    }
+    .lamp-right{
+        margin-top:20px;
+        margin-left:10px;
+    }
+    .lamp-left{
+        margin-top:20px;
+        margin-right:10px;
+    }
+    h3 span {
+        display:block;
+    }
+    .text-of-home{
+        margin-top: 160px;
+    }
+    #rabbit-left{
+        width:0px;
+        height:0px;
+    }
+    #rabbit-right{
+        width:0px;
+        height:0px;
+    }
+    .rabbit{
+        display:flex;
+        justify-content:space-evenly;
+    }
+    .last-page{
+        background-image:url("../images/hellodophin+rabbit.png");
+        width:100vw;
+        height:30vh;
+    }
+    #lamp-right{
+        width:90%;
+    }
+    #lamp-left{
+        width:90%;
+    }
+
+}
