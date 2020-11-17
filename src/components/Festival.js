@@ -28,7 +28,7 @@ class Festival extends Component {
     }
     render() {
         return (
-            <div className="moonfest" id="festival">
+            <div className="moonfest">
                 
                 <div className="moonfest-left">
                     <h1 className="festmoon">พิธีไหว้พระจันทร์</h1>

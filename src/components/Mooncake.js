@@ -28,7 +28,7 @@ class Mooncake extends Component {
     }
     render() {
         return (
-            <div className="moon" id="mooncake-page">
+            <div className="moon" >
                 <div className="mooncake">
                     <img src={Ellipse1} id="mooncake" />
                 </div>
@@ -37,8 +37,8 @@ class Mooncake extends Component {
                     <img src={Lampcol} id="lamp" />
                     <p>เป็นขนมที่มีต้นตำรับมาจากประเทศจีน</p>
                     <p>เป็นสัญลักษณ์แห่งความเป็นสิริมงคล</p>
-                    <p>ความปรารถนาดี และความสามัคคี </p>
-                    <p>ขนมไหว้พระจันทร์ของจีนดั้งเดิม...</p>
+                    <p id="rabbit">ความปรารถนาดี และความสามัคคี </p>
+                    <p id="festival">ขนมไหว้พระจันทร์ของจีนดั้งเดิม...</p>
                     <hr/>
                      <div class="w3-container">
                 <p><button class="w3-button w3-black  w3-round-large" onClick={() => this.openModal()}>อ่านเพิ่มเติม</button></p>

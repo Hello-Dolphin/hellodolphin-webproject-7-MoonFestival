@@ -24,7 +24,7 @@ class Festival extends Component {
     }
     render() {
         return (
-                <div className="moonfest-right" id="rabbit">
+                <div className="moonfest-right" >
                     <h1 className="festmoon">กระต่ายบนดวงจันทร์</h1>
                     <h1 className="festedmoon">(月兔)</h1>
                     <img src={Ellipse4} alt="Ellipse4" width="75%"/>

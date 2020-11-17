@@ -27,7 +27,7 @@ class MoonDay extends Component{
     }
     render(){
         return(
-            <div className="moon-day" id="moonday">
+            <div className="moon-day">
                 <div className="text">
                     <h2 className="text-day">วันไหว้พระจันทร์(中秋节)</h2>
                     <img src={Lampcol} id="lamp" />
@@ -35,7 +35,7 @@ class MoonDay extends Component{
                     <p className="day">เป็นเทศกาลตามวัฒนธรรมจีน</p>
                     <p className="day">ที่มีขึ้นในกลางฤดูใบไม้ร่วง</p>
                     <p className="day">เพื่อเฉลิมฉลองการเก็บเกี่ยวจะมีขึ้นใน</p>
-                    <p className="day">คืนวันเพ็ญเดือน 8 ตามปฏิทินจันทรคติ...</p>
+                    <p id="mooncake-page" className="day">คืนวันเพ็ญเดือน 8 ตามปฏิทินจันทรคติ...</p>
                     <hr/>
                     <div class="w3-container">
                 <p><button class="w3-button w3-black  w3-round-large" onClick={() => this.openModal()}>อ่านเพิ่มเติม</button></p>

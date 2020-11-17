@@ -44,11 +44,11 @@ class Home extends Component{
                     <div>
                         <img src={r4} id="rabbit-left"/>
                     </div>
-                    <div>
+                    <div id="legend" >
                         <img src={r3} id="rabbit-right"/>
                     </div>
                 </div>
-            </div>
+            </div >
 
         )
     }
