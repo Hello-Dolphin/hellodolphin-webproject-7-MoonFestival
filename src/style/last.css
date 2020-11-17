@@ -1,5 +1,8 @@
 .last-page{
-    background-image: url(../images/background6.png);
-    posistion:absolute;
+    background-image: url("../images/background7.png");
     width:100vw;
+}
+#lastpic{
+    width:100vw;
+    position:absolute;
 }
