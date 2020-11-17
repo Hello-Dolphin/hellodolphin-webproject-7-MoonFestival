@@ -10,7 +10,8 @@ class Legend extends Component {
                 <h1 className="miss-lang">ฉางเอ๋อ <span className="mis-lang-lang">(嫦娥)</span></h1>
                 <img src={missed} id="miss" />
                 </div>
-                <img src={Lampcol} id="lamp" />
+                <div>
+                    <img src={Lampcol} id="lamp" />
                     <p>ตำนานของเทศกาลไหว้พระจันทร์</p>
                     <p className="write">เกี่ยวกับเทพปกรณัมจีนที่เล่าถึงเทพธิดาแห่งดวงจันทร์ ที่ชื่อ “ฉางเอ๋อ”</p>
                     <p className="write">ซึ่งเป็นหญิงคนรักของ โฮวอี้ นักยิงธนูแห่งสวรรค์</p>
@@ -19,8 +20,8 @@ class Legend extends Component {
                     <p className="write">เช่น มนุษย์ทั่วไปบนโลกมนุษย์กับฉางเอ๋อ แต่แล้วโฮวอี้ก็ถูกคนสนิททรยศฆ่าตาย</p>
                     <p className="write">ส่วนฉางเอ๋อนางได้ดื่มน้ำอมฤตเพื่อที่จะมีชีวิตอมตะ</p>
                     <p id="moonday" className="write">แล้วเหาะกลับไปยังดวงจันทร์อีกครั้งตามลำพังด้วยความเศร้า</p>
-               <hr/>
                 </div>
+            </div>
             
         )
     }
