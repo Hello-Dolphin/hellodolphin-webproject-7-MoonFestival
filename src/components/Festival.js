@@ -6,6 +6,7 @@ import popup3 from "../images/popup3.png";
 import Modal from "react-awesome-modal";
 import '../style/popup.css';
 import RabbitOnMoon from '../components/RabbitOnMoon'
+import Lampcol from '../images/Lampcol.png';
 class Festival extends Component {
     constructor(props) {
         super(props);
@@ -33,11 +34,16 @@ class Festival extends Component {
                     <h1 className="festmoon">พิธีไหว้พระจันทร์</h1>
                     <h1 className="festedmoon">(中秋拜月的仪式流程)</h1>
                     <img src={Ellipse3} alt="Ellipse3" width="75%"/>
-                    <p>พิธีไหว้พระจันทร์</p>
-                    <p>1. ตั้งโต๊ะไหว้บนพื้นที่โล่งที่</p>
-                    <p>มองเห็นพระจันทร์ชัดเจน  เช่น</p>
-                    <p>ลานหน้าบ้าน หรือดาดฟ้า</p>
-                    <p>2. จัดเตรียมโต๊ะเพื่อตั้งของไหว้...</p>
+                    <div>
+                        <img src={Lampcol} id="lamp" />
+                        <p>พิธีไหว้พระจันทร์</p>
+                        <p>1. ตั้งโต๊ะไหว้บนพื้นที่โล่งที่</p>
+                        <p>มองเห็นพระจันทร์ชัดเจน  เช่น</p>
+                        <p>ลานหน้าบ้าน หรือดาดฟ้า</p>
+                        <p>2. จัดเตรียมโต๊ะเพื่อตั้งของไหว้...</p>
+                        <hr></hr>
+                    </div>
+
                     <div class="w3-container">
                 <p><button class="w3-button w3-blue  w3-round-large" onClick={() => this.openModal()}>อ่านเพิ่มเติม</button></p>
                         <Modal visible={this.state.visible} width="938" height="746" effect="fadeInUp" onClickAway={() => this.closeModal()}>
