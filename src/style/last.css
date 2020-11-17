@@ -1,8 +1,10 @@
 .last-page{
-    background-image: url("../images/background7.png");
-    width:100vw;
+    background: url("../images/background7.png")no-repeat center center;
+    background-size: cover;
+    width: 100vw;
 }
 #lastpic{
-    width:100vw;
-    position:absolute;
+    background: url("../images/background7.png")no-repeat center center;
+    background-size: cover;
+    width: 100vw;
 }

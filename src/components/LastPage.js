@@ -7,7 +7,7 @@ class LastPage extends Component{
     render(){
         return(
             <div classname="last-page">
-              <img src={background7} id="background71"/>
+              <img src={background7} id="lastpic"/>
             </div>
         )
     }

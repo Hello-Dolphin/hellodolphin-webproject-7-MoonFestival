@@ -39,12 +39,12 @@ ul li a:hover,
 ul li a:active {
     border-bottom: 2px solid #021225;
    background-image: url(../images/backgroung1.png);
-    color:#273959;
+    color:#FFD48A;
 }
 
 ul li a.active {
     background-color: #021225;
-    color: #273959;
+    color: #FFD48A;
 }
 
 .clearfix {
