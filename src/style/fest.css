@@ -44,7 +44,8 @@ body{
     display:flex;
     justify-content:center;
     text-align: center;
-    background-image: url(../images/background4.png);
+    background: url(../images/background4.png) no-repeat center center;
+    background-size: cover;
     width: 100%;
     
 }

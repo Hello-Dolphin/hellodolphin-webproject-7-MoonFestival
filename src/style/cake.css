@@ -1,9 +1,10 @@
 .moon{
-text-align:center;
-display:flex;
-justify-content: center;
-background-image: url(../images/background3.png);
-width: 100vw;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    background: url(../images/background3.png)no-repeat center center;
+    background-size: cover;
+    width: 100vw;
 }
 .mooncake{
     text-align:center;
