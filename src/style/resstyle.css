@@ -78,4 +78,66 @@
         width:90%;
     }
 
+    @keyframes yourAnimation {
+        0.0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(5deg);
+        }
+        49.8%{
+            transform: rotate(-5deg);
+        }
+    }
+
+    #lamp-left{
+        animation: yourAnimation 5s ease 0s infinite normal none;
+    }
+
+    @keyframes yourAnimation2 {
+        0.0%{
+            transform: rotate(0deg);
+        }
+        75%{
+            transform: rotate(-5deg);
+        }
+        25%{
+            transform: rotate(5deg);
+        }
+    }
+
+    #lamp-right{
+        animation: yourAnimation2 5s ease 0s infinite normal none;
+    }
+    @keyframes yourAnimation3 {
+        0.0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(10deg);
+        }
+        49.8%{
+            transform: rotate(-10deg);
+        }
+    }
+
+    #rabbit-left{
+        animation: yourAnimation3 5s ease 0s infinite normal none;
+    }
+
+    @keyframes yourAnimation4 {
+        0.0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(-10deg);
+        }
+        49.8%{
+            transform: rotate(10deg);
+        }
+    }
+
+    #rabbit-right{
+        animation: yourAnimation4 5s ease 0s infinite normal none;
+    }
 }
