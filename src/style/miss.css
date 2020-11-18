@@ -4,7 +4,7 @@ body{
 }
 .missed{
     text-align: center;
-    background: url("../images/backgroung8.png")no-repeat center center;
+    background: url("../images/changerr.png");
     background-size: cover;
     height:100%;
     width: 100vw;

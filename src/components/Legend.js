@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../style/miss.css';
 import missed from '../images/missed.png';
 import Lampcol from '../images/Lampcol.png';
+import backmiss from '../images/backmiss.png';
 class Legend extends Component {
     render() {
         return (

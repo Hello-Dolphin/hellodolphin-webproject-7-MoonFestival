@@ -1,7 +1,7 @@
 .moon-day{
     display:flex;
     justify-content: center;
-    background: url("../images/background3.png")no-repeat center center;
+    background: url("../images/daymoon.png")no-repeat center center;
     background-size: cover;
     width: 100vw;
     padding-top:5rem;

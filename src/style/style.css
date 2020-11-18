@@ -41,7 +41,7 @@ h1{
 .bigger-home{
     background-color:#021225;
     padding-bottom: 5rem;
-    background:url("../images/backgroung1.png") no-repeat center center;
+    background:url("../images/home.png") ;
     background-size: cover;
     height:100vh;
     width:100%;
