@@ -40,7 +40,7 @@ class Festival extends Component {
 
                     <div class="w3-container">
                         <p><button class="w3-button w3-black  w3-round-large" onClick={() => this.openModal()}>อ่านเพิ่มเติม</button></p>
-                        <Modal visible={this.state.visible} width="938" height="746" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                        <Modal visible={this.state.visible} width="469" height="373" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                             <div classname="popup4">
                                 <img src={popup4} id="popup4"/>
                             </div>

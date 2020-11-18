@@ -3,6 +3,41 @@
 .popup2{
 }
 .popup3{
+
 }
 .popup4{
+}
+#popup1{
+    width:469px;
+    height:373px;
+}
+#popup2{
+    width:469px;
+    height:373px;
+}
+#popup3{
+    width:469px;
+    height:373px;
+}
+#popup4{
+    width:469px;
+    height:373px;
+}
+@media only screen and (max-width: 600px) {
+    #popup1{
+        width:350px;
+        height:373px;
+    }
+    #popup2{
+        width:350px;
+        height:373px;
+    }
+    #popup3{
+        width:350px;
+        height:373px;
+    }
+    #popup4{
+        width:350px;
+        height:373px;
+    }
 }
